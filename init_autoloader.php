@@ -2,6 +2,7 @@
 
 // autoregister_zf will automatically include the library in the
 // same directory as the autoloader we're using
+require_once 'vendor/ChromePhp/ChromePhp.php';
 require_once 'vendor/ZF2/library/Zend/Loader/AutoloaderFactory.php';
 Zend\Loader\AutoloaderFactory::factory(array(
     'Zend\Loader\StandardAutoloader' => array(
